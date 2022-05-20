@@ -1,0 +1,16 @@
+[
+    {
+        "ID": "1",
+        "img":"https://raw.githubusercontent.com/jordanbramada/JordanTekweb2022/main/img/caferacer.png",
+        "Title": "Cafe Racer",
+        "Content": "Motor ini adalah salah satu genre sepeda motor sport yang berasal dari kalangan pecinta sepeda motor Inggris di awal tahun 1960-an di London.",
+        "markdown": "art1.md"
+    },
+    {
+        "ID": "2",
+        "img":"https://raw.githubusercontent.com/jordanbramada/JordanTekweb2022/main/img/twin.png",
+        "Title": "V-Twin",
+        "Content": "Mesin V-twin, juga disebut mesin V2, adalah mesin pembakaran internal dua silinder dimana silinder disusun dalam konfigurasi V. ",
+        "markdown": "art2.md"
+    }
+]
