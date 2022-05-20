@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    height: 110vh;
+    background: linear-gradient(#010101,#322a49);
+}
+html{
+	font-size: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: #eee;
+}
+
+.container{
+	max-width: 120rem;
+	width: 90%;
+	margin: 0 auto;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+nav{
+	padding-top: 5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	font-size: 1.6rem;
+}
+
+.brand{
+	font-size: 3rem;
+	font-weight: 300;
+    transform: translateX(-100rem);
+    animation: slideIn .5s forwards;
+}
+
+.brand span{
+	color: rgb(5, 212, 253);
+}
+
+nav ul{
+	display: flex;
+}
+
+nav ul li{
+	list-style: none;
+    transform: translateX(100rem);
+    animation: slideIn .5s forwards;
+}
+
+nav ul li:nth-child(1){
+	animation-delay: 0s;
+}
+
+nav ul li:nth-child(2){
+	animation-delay: .5s;
+}
+
+nav ul li:nth-child(3){
+	animation-delay: 1s;
+}
+
+nav ul li:nth-child(4){
+	animation-delay: 1.5s;
+}
+
+nav ul li a{
+	padding: 1rem 0;
+	margin: 0 3rem;
+	position: relative;
+	letter-spacing: 2px;
+}
+
+nav ul li a:last-child{
+	margin-right: 0;
+}
+
+nav ul li a::before,
+nav ul li a::after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: rgb(5, 212, 253);
+	left: 0;
+    transform: scaleX(0);
+    transition: all .5s;
+}
+
+nav ul li a::before{
+	top: 0;
+	transform-origin: left;
+}
+
+nav ul li a::after{
+	bottom: 0;
+	transform-origin: right;
+}
+
+nav ul li a:hover::before,
+nav ul li a:hover::after{
+	transform: scaleX(1);
+}
+
+@keyframes slideIn {
+	from{
+
+	}
+	to{
+		transform: translateX(0);
+	}
+}
+#instagram, #twitter, #github, #facebook{
+    font-size: 8em;
+    padding: 10px 20px;
+    margin: 0 40px;
+    background: #18191f;
+    color: #fff;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px #00000080,
+                10px 10px 12px #00000080,
+                inset 2px 2px 10px #00000080,
+                inset 2px 2px 10px #00000080,
+                inset 2px 2px 10px #00000080,
+                inset 2px 2px 10px #00000080;
+    text-shadow:0px 0px 50px #0072ff,
+                0px 0px 100px #0072ff,
+                0px 0px 150px #0072ff,
+                0px 0px 200px #0072ff;
+    animation: animate 3s linear infinite;
+}
+@keyframes animate{
+    from{
+        filter: hue-rotate(0deg);
+    }
+    to{
+        filter: hue-rotate(360deg);
+    }
+}
+
+#twitter{
+    animation-delay: 0.3s;
+}
+#github{
+    animation-delay: 0.7s;
+}
+#facebook{
+    animation-delay: 1s;
+}
+.contact{
+    width: 100%;
+    text-align: center;
+    margin-top: -150px;
+}
+.contact h1{
+    font-weight: lighter;
+    font-size: 5em;
+    color: white;
+}
