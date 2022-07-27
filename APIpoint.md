@@ -76,4 +76,4 @@ false   //if false
 ```
 
 # DATABASE DESIGN
-![Design Database](https://raw.githubusercontent.com/jordanbramada/JordanTekweb2022/main/img/dbdesign.png)
+![Design Database](https://raw.githubusercontent.com/jordanbramada/JordanTekweb2022/main/img/designdbdesign.png)
