@@ -300,4 +300,4 @@ false   //if false
 ```
 
 # DATABASE DESIGN
-![Design Database](https://github.com/jordanbramada/JordanTekweb2022/blob/main/img/db%20design.png)
+![Design Database](https://github.com/jordanbramada/JordanTekweb2022/blob/main/img/dbdesign.png)
