@@ -10,12 +10,11 @@ GET: /article
 response:
 [
   {
-    "id"        : "",
-    "title"     : "",
-    "author"    : "",
-    "markdown"  : "",
-    "thumbnail" : "",
-    "content"   : ""
+    "ID"        : "",
+    "img"       : "",
+    "Title"     : "",
+    "Content"   : "",
+    "markdown"  : ""
   },
   {
     ...
@@ -28,12 +27,11 @@ GET: /article/[id]
 
 response:
 {
-  "id"        : "",
-  "title"     : "",
-  "author"    : "",
-  "markdown"  : "",
-  "thumbnail" : "",
-  "content"   : ""
+    "ID"        : "",
+    "img"       : "",
+    "Title"     : "",
+    "Content"   : "",
+    "markdown"  : ""
 }
 ```
 ### Menambahkan article
@@ -42,11 +40,10 @@ POST: /article
 
 data:
 {
-  "title"     : "",
-  "author"    : "",
-  "markdown"  : "",
-  "thumbnail" : "",
-  "content"   : ""
+    "img"       : "",
+    "Title"     : "",
+    "Content"   : "",
+    "markdown"  : ""
 }
 
 response:
@@ -59,11 +56,10 @@ PUT: /article
 
 data:
 {
-  "title"     : "",
-  "author"    : "",
-  "markdown"  : "",
-  "thumbnail" : "",
-  "content"   : ""
+    "img"       : "",
+    "Title"     : "",
+    "Content"   : "",
+    "markdown"  : ""
 }
 
 response:
